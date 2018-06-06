@@ -1,0 +1,15 @@
+{% extends "default.html" %}
+{% block title %}response{% endblock %}
+
+{% block content %}
+
+<image src="{{risp['Poster']}}"></image>
+<image src="{{tit}}"></image>
+<h4>Year: {{risp['Year']}}</h4>
+<h4>Genre: {{risp['Genre']}}</h4>
+<h4>Director: {{risp['Director']}}</h4>
+<h4>Actors: {{risp['Actors']}}</h4>
+<h4>Plot: {{risp['Plot']}}</h4>
+    <h4> ImdbID: {{risp['imdbID']}}</h4>
+
+{% endblock %}
