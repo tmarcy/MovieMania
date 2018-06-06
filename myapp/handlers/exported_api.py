@@ -92,12 +92,6 @@ def insertNew():
        All Search model properties are POST requests parameter.
        :return: response in json format
        """
-    param = request.args
-    required_param = ['email', 'type', 'value', 'plot']
-    if required_param not in param.keys():
-        flash('A parameter is missing.')
-        return redirect('/')
-
     email = request.args.get('email')
     type = request.args.get('type')
     value = request.args.get('value')
