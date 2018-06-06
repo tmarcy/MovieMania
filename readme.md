@@ -1,6 +1,6 @@
 # Project Title
 
-My Movie
+MovieMania
 
 ## The project in short
 
